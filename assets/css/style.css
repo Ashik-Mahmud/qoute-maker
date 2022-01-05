@@ -52,6 +52,7 @@ html {
 
 }
 
+
 /* design  */
 
 .qoute-box{
@@ -72,6 +73,7 @@ html {
     position: relative;
     display: flex;
     align-items: flex-start;
+    justify-content: center;
     padding: 1.5rem 0rem;
 }
 .qoute-text p{
@@ -94,7 +96,7 @@ html {
     font-size: 1.1rem;
     font-weight: 500;
     font-style: italic;
-    color: #666;
+    color: rgb(36, 35, 35);
 }
 
 .qoute-option{
@@ -132,4 +134,35 @@ html {
     border: 1px solid transparent;
     cursor: pointer;
     font-size: 1.1rem;
+}
+
+
+.speak-btn.active {
+    background: #5372F0 !important;
+    color: #FFFFFF !important;
+}
+
+
+
+
+/* responsive  */
+
+@media (max-width: 768px) {
+    .qoute {
+        width: 100%;
+        padding: 1rem;
+        margin: .65rem;
+    }
+
+    .qoute-box {
+        padding: 0rem !important;
+    }
+
+    .qoute-box .title {
+        font-size: 2rem;
+    }
+    .qoute-option{
+        transform: scale(0.8);
+    }
+
 }
