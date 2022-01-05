@@ -1,0 +1,135 @@
+/* src   */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+/* variables  */
+:root{
+    --primary-color: #ddd;
+    --secondary-color: #344;
+
+    --font-family: ;
+}
+
+
+/* base  */
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100vh;
+    background: #5372F0;
+}
+a{
+    text-decoration: none;
+}
+html {
+    scroll-behavior: smooth;
+}
+*::selection{
+    background: #5372F0;
+    color: #FFFFFF;
+}
+
+/* stylish css  */
+
+.qoute{
+    position: relative;
+    width: 650px;
+    height: auto;
+    padding: 1.5rem 1rem;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    user-select: none;
+
+}
+
+/* design  */
+
+.qoute-box{
+    position: relative;
+    padding: 0rem 1.5rem;
+    
+}
+.qoute-box .title{
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+    font-weight: 600;
+    margin: 1rem 0rem;
+}
+
+
+.qoute-box .qoute-text{
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    padding: 1.5rem 0rem;
+}
+.qoute-text p{
+    text-align: center;
+    word-break: break-all;
+    font-size: 22px;
+    color: #333;
+    padding: 0rem .5rem;
+}
+.qoute-text i{
+    font-size: 1.1rem;
+}
+
+.qoute-text .right-qoute{
+    align-self: flex-end;
+
+}
+.qoute-box .author{
+    text-align: right;
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-style: italic;
+    color: #666;
+}
+
+.qoute-option{
+    padding: 1rem 0rem;
+    border-top: 1px solid rgb(215, 216, 216);
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.qoute-option .left-option button{
+    background: transparent;
+    border: 2px solid #5372F0;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: #5372F0;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    margin-right: .4rem;
+    cursor: pointer;
+    transition: all 0.3s ;
+}
+.qoute-option .left-option button:hover{
+    background: #5372F0;
+    color: #FFFFFF;
+}
+
+.qoute-btn button{
+    background: #5372F0;
+    color: #FFFFFF;
+    padding: .8rem 1.5rem;
+    border-radius: 30px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
